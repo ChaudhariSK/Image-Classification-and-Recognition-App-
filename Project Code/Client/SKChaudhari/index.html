@@ -1,0 +1,34 @@
+<!DOCTYPE html />
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>SKChaudhari</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" onload="window.$ = window.jQuery = module.exports;"></script>
+    <script src="predict.js"></script>
+</head>
+
+<body>
+    <form>
+
+        <img src="assets/images/header.png" width="1810" height="450"/>
+        <h1>welcome to the Project by <strong> Pooja Chaudhari & Sanket Chaudhari</strong></h1>
+       
+
+        <div class="stepLabel">step one</div>
+        <div><strong>Browse (...)</strong> to find an image on your local file system.</div>
+        <input type="button" id="select_button" value="..." />
+
+        <div id="previewImage"></div>
+        <div id="analysisResults"></div>
+        <div class="stepLabel">step two</div>
+        <div>Click <strong>Predict</strong> to view artist predictions.</div>
+        <input disabled=true type="button" id="analyze_button" value="Predict" />
+        
+    </form>
+</body>
+
+</html>
